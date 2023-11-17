@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f8f5f5;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang header */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d64747;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.container {
+    text-align: center; /* Untuk mengatur konten dalam container ke tengah */
+}
+
+.centered-content {
+    margin-top: 20px; /* Atur jarak antara paragraf dan tombol */
+}
+#menu {
+    margin-left: 3cm; /* Menu berada 3 cm dari kiri */
+    max-width: 800px; /* Lebar maksimum menu */
+    margin-bottom: 50px; 
+}
+.menu-item {
+    display: flex; /* Menggunakan flexbox */
+    align-items: flex-start; /* Menyusun item secara vertikal di bagian atas */
+    border: 1px solid #361111;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: rgba(5, 5, 5, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.menu-item img {
+    width: 200px; /* Tetapkan lebar gambar */
+    height: auto;
+    border-radius: 8px;
+    filter: brightness(90%);
+    margin-right: 20px; /* Memberi jarak antara gambar dan teks */
+}
+
+/* Mengatur teks untuk berada di samping gambar */
+.menu-item .text-content {
+    flex: 1; /* Menggunakan ruang yang tersedia */
+}
+
+/* Gaya teks di dalam menu-item */
+.menu-item p {
+    color: #fff; /* Warna teks yang lebih gelap */
+    margin: 0; /* Menghilangkan margin bawaan */
+}
+/* Ganti warna tautan */
+p a {
+    color: #00FF00; /* Ganti dengan warna yang diinginkan, misalnya hijau (#00FF00) */
+    text-decoration: none; /* Untuk menghilangkan garis bawah pada tautan */
+}
+
+/* Ganti warna tautan saat dihover */
+p a:hover {
+    color: #FF0000; /* Ganti dengan warna yang diinginkan saat dihover, misalnya merah (#FF0000) */
+}
+
+#background-video {
+    position: fixed; /* Menempatkan video secara tetap */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Meletakkan video di latar belakang */
+    /* Lain-lain pengaturan sesuai kebutuhan */
+}
