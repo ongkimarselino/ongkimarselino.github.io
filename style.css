@@ -88,6 +88,8 @@ p a:hover {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    width: auto; /* Menyesuaikan lebar secara responsif */
+    height: auto; /* Menyesuaikan tinggi secara responsif */
     z-index: -1; /* Meletakkan video di latar belakang */
     /* Lain-lain pengaturan sesuai kebutuhan */
 }
